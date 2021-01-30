@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Armin Kekić</title>
+    <link>https://akekic.github.io/publication-type/2/</link>
+      <atom:link href="https://akekic.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Dec 2018 12:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://akekic.github.io/images/icon_hua1a7aa75da62ec4ec5216d7e78c109b0_47919_512x512_fill_lanczos_center_2.png</url>
+      <title>2</title>
+      <link>https://akekic.github.io/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Wave propagation across interfaces induced by different interaction exponents in ordered and disordered Hertz-like granular chains</title>
+      <link>https://akekic.github.io/publication/masters-thesis-paper/</link>
+      <pubDate>Sat, 01 Dec 2018 12:00:00 +0100</pubDate>
+      <guid>https://akekic.github.io/publication/masters-thesis-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interaction Enhanced Imaging of Rydberg P states - Preparation and detection of Rydberg atoms for engineering long-range interactions</title>
+      <link>https://akekic.github.io/publication/bachelors-thesis-paper/</link>
+      <pubDate>Fri, 01 Jan 2016 12:00:00 +0100</pubDate>
+      <guid>https://akekic.github.io/publication/bachelors-thesis-paper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
