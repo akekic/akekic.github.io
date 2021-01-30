@@ -246,6 +246,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDVP40P6JF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-XDVP40P6JF', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -854,7 +892,7 @@
     <h1>Welcome to my website!</h1>
 
     <div class="article-style">
-      <p>I&rsquo;m a mathematician and physicist working as an applied scientist at <a href="https://engineering.zalando.com/" target="_blank" rel="noopener">Zalando</a> where I develop sales forecasting models that are used for algorithmic price optimisation. On this website I write about things that I find interesting and projects that I work on.</p>
+      <p>I&rsquo;m a mathematician and physicist working as an applied scientist at <a href="https://engineering.zalando.com/" target="_blank" rel="noopener">Zalando</a> where I develop sales forecasting models that are used for algorithmic price optimisation. On this website I write about things that I find interesting and projects I work on.</p>
 <p>
   <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="/media/cv.pdf" target="_blank">cv</a>.</p>
 
