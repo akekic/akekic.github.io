@@ -5,12 +5,20 @@
     <link>https://akekic.github.io/publication/</link>
       <atom:link href="https://akekic.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Sep 2023 12:00:00 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Nov 2023 12:00:00 +0100</lastBuildDate>
     <image>
       <url>https://akekic.github.io/images/icon_hu9d5e363235025b8b5796fdc310f0e00b_5560_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://akekic.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Targeted Reduction of Causal Models</title>
+      <link>https://akekic.github.io/publication/targeted-causal-reduction/</link>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 +0100</pubDate>
+      <guid>https://akekic.github.io/publication/targeted-causal-reduction/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Causal Component Analysis</title>
